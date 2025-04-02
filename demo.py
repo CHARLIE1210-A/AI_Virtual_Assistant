@@ -12,7 +12,7 @@ import pyaudio
 import wave
 import requests
 
-genai.configure(api_key="AIzaSyCPVWzopKsAxYjwakAklSiN64wAAWA1VZo")
+genai.configure(api_key="")
 
 def text_to_speech(text, api_key, voice_id, output_path="output.mp3"):
     """
